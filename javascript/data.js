@@ -238,7 +238,7 @@ const diagnoses = [ //Plumbing NVQ and technical certificate level 2 2005 has be
         // credits: Pixabay, industrial_copper_tubing_industry (image), https://www.mnsplumbing.com/plumbing-blog/signs-of-a-pinhole-leak-in-copper-pipe (description)
     },
     {
-        categories: ["all"],
+        categories: ["radiator", "shower", "tap"],
         tags: ["no water", "wrong temperature", "cold temperature"],
         diagnosis: "Closed Valve",
         description: "An appliance not heating correctly or a lack of water can often be due to valves mistakenly left shut, restricting water flow.",
@@ -326,7 +326,7 @@ const diagnoses = [ //Plumbing NVQ and technical certificate level 2 2005 has be
         // credits: Flickr, project_365_250_070915 (image), Heinemann, JTL, https://tapron.co.uk/blogs/news/the-signs-you-need-to-replace-the-cistern-parts-in-your-home (description)
     },
     {
-        categories: ["shower", "tap"],
+        categories: ["all"],
         tags: ["wrong temperature", "hot temperature"],
         diagnosis: "Pipe Not Insulated",
         description: "If a plumbing system lacks adequate insulation, it can cause pipes carrying both cold and hot water to change temperature. For example, hot water pipes installed beneath uninsulated cold pipes can transfer heat, warming the cold water pipes. Alternatively, uninsulated hot water pipes exposed in a cold wall duct can lose heat to the surrounding environment.",
