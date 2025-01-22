@@ -335,7 +335,7 @@ const diagnoses = [ //Plumbing NVQ and technical certificate level 2 2005 has be
     },
     {
         categories: ["all"],
-        tags: ["noise"],
+        tags: ["noise", "shaking"],
         diagnosis: "Unsecured Piping or Appliance",
         description: "Any plumbing installation can be prone to human error, meaning appliances, pipes and fittings may be installed without being properly secured. This can lead to rattling and shaking noises if the fixtures are left unsecured.",
         image: "images/industrial_copper_tubing_industry.jpg",
