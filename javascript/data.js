@@ -294,7 +294,7 @@ const diagnoses = [ //Plumbing NVQ and technical certificate level 2 2005 has be
         // credits: pixabay, tap_water_old_running (image), https://www.servicelegends.com/8-signs-that-you-have-hard-water-in-your-plumbing/ (description)
     },
     {
-        categories: ["Radiator"],
+        categories: ["radiator"],
         tags: ["noise", "gurgling noise", "wrong temperature", "cold temperature"],
         diagnosis: "Electrolysis/Galvanic Corrosion",
         description: "When dissimilar metals, such as a copper pipe and a steel radiator, come into contact in the presence of an electrolyte, they form a galvanic couple, initiating galvanic corrosion. Over time, this process will corrode the anode, leading to hydrogen gas accumulation within the system and the formation of iron oxides.",
@@ -302,7 +302,7 @@ const diagnoses = [ //Plumbing NVQ and technical certificate level 2 2005 has be
         // credits: Wikimedia, 247_home_rescue_radiator (image), https://copper.org/applications/plumbing/techcorner/electrolysis_cause_copper_tube_fail.php (description)
     },
     {
-        categories: ["tap", "shower", "toilet"],
+        categories: ["tap", "shower", "toilet", "cistern"],
         tags: ["smell", "foul smell", "chemical smell", "metallic smell", "discoloured", "water discoloured"],
         diagnosis: "Contaminated Water",
         description: "Unusual smells, tastes, or discolouration can indicate contaminated water. Maintenance on mains pipes may introduce oxides and dirt, but chemical or sewage odors signal serious contamination, which can pose health risks. Immediate action should be taken.",
@@ -320,9 +320,9 @@ const diagnoses = [ //Plumbing NVQ and technical certificate level 2 2005 has be
     {
         categories: ["toilet", "cistern"],
         tags: ["noise", "gurgling noise", "dripping noise", "no water", "leaking", "overflow"],
-        diagnosis: "Broken Cistern Ballcock",
-        description: "When a cistern's ballcock becomes worn or damaged, it can result in either a constant flow of water into the cistern or an inability for the cistern to fill. These valves can also stick due to a build-up of scale, particularly in systems with hard water.",
-        image: "images/project_365_250_070915.jgp",
+        diagnosis: "Broken Cistern Inlet Valve",
+        description: "When a cistern's inlet valve becomes worn or damaged, it can result in either a constant flow of water into the cistern or an inability for the cistern to fill. These valves can also stick due to a build-up of scale, particularly in systems with hard water.",
+        image: "images/project_365_250_070915.jpg",
         // credits: Flickr, project_365_250_070915 (image), Heinemann, JTL, https://tapron.co.uk/blogs/news/the-signs-you-need-to-replace-the-cistern-parts-in-your-home (description)
     },
     {
